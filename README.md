@@ -22,3 +22,24 @@ The script when run produces the output today data set in
 a file named "tidyData.txt"
 
 The Code Book for tidyData.txt is available at [CodeBook](codeBook.md).
+
+Raw Data to Tidy Data
+---------------------
+
+Step 1: Read the various raw data files into R data tables and merge the 
+test and train data sets using rbind()
+
+Step 2: Extract only those features that end with mean() and std() and
+produce a data table, named msX.
+
+Step 3: Rename column names in activity data table to (ANUM,ACTIVITYLABEL)
+
+Step 4: Rename column names in msX data table to corresponding names in
+features data table.
+
+Step 5: Create tidy data set by combining the columns from msX, subjects,
+and activity data tables and producing mean values for each feature
+grouped by SUBJECT and ACTIVITY LABEL.
+
+Finally, use write.table() to produce the tidyData.txt file.
+
