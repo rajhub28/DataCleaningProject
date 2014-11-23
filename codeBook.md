@@ -107,7 +107,7 @@ tidyData.txt contains the following variables:
 1. SUBJECT takes a value between 1 and 30, indicating the subject who performed
 the experiment (ran the app on his mobile phone that recorded his movements).
 
-2. ACTIVITYLABEL takes one of the following 6 values:
+2. ACTIVITYLABEL takes one of the following 6 values (These values were obtained either in the testing phase or the training phase of the machine lerning algorithms that were run on the data set):
 
 * WALKING
 * WALKING_UPSTAIRS
@@ -115,9 +115,6 @@ the experiment (ran the app on his mobile phone that recorded his movements).
 * SITTING
 * STANDING
 * LAYING
-
-These values were obtained either in the testing phase or the training phase of 
-the machine lerning algorithms that were run on the data set.
 
 3. All other variables range from -1.0 to 1.0 and are average values computed
 for each SUBJECT and ACTIVITYLABEL pair. These average values are computed
