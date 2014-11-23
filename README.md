@@ -21,4 +21,4 @@ The script also requires the following two R libraries:
 The script when run produces the output today data set in 
 a file named "tidyData.txt"
 
-The Code Book for tidyData.txt is available at [link](codeBook.md).
+The Code Book for tidyData.txt is available at [CodeBook](codeBook.md).
